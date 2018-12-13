@@ -1,0 +1,77 @@
+﻿<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="FttmModel.Store" Alias="Self" Provider="Devart.Data.PostgreSql" ProviderManifestToken="PostgreSQL, 9.2.2" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:devart="http://devart.com/schemas/edml/StorageSchemaExtensions/1.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="FttmEntitiesStoreContainer">
+          <EntitySet Name="vdp03s" EntityType="FttmModel.Store.vdp03" store:Type="Tables" Schema="public" Table="vdp03" />
+        </EntityContainer>
+        <EntityType Name="vdp03">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="FttmModel" Alias="Self" d4p1:ViewGeneration="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:devart="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" annotation:UseStrongSpatialTypes="false" xmlns:d4p1="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="FttmEntities" annotation:LazyLoadingEnabled="true" ed:Guid="9988d038-be11-4c37-b6e8-c01fda632240">
+          <EntitySet Name="Vdp03s" EntityType="FttmModel.Vdp03" />
+        </EntityContainer>
+        <EntityType Name="Vdp03" ed:Guid="2e960c5c-344a-4373-aa9e-c76ca1caf3c6">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Dateandtime" Type="DateTime" ed:ValidateRequired="false" ed:Guid="c26cf211-833f-4436-ba72-afad3d4c7994" />
+          <Property Name="Mks" Type="Int32" ed:ValidateRequired="false" ed:Guid="8fde9507-17b0-4ff2-b027-7dd829bd51d6" />
+          <Property Name="Tagname" Type="String" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="1f8e22e0-cd4d-40f1-accf-2ee747279c8e" />
+          <Property Name="Val" Type="Double" ed:ValidateRequired="false" ed:Guid="0c16a135-1f5c-44fa-9998-2b41adcc206c" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" ed:ValidateRequired="true" ed:Guid="9f19fc15-a81f-4074-a7a6-9d89c24947c1" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- MSL content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="FttmEntitiesStoreContainer" CdmEntityContainer="FttmEntities">
+          <EntitySetMapping Name="Vdp03s">
+            <EntityTypeMapping TypeName="FttmModel.Vdp03">
+              <MappingFragment StoreEntitySet="vdp03s">
+                <ScalarProperty Name="Dateandtime" ColumnName="dateandtime" />
+                <ScalarProperty Name="Mks" ColumnName="mks" />
+                <ScalarProperty Name="Tagname" ColumnName="tagname" />
+                <ScalarProperty Name="Val" ColumnName="val" />
+                <ScalarProperty Name="Id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <edmx:Diagrams>
+      <Diagram Name="Main" />
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
