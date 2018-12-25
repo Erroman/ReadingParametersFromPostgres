@@ -17,23 +17,28 @@
           <Property Name="val" Type="double precision" />
           <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
         </EntityType>
+        <Function Name="interlocksalarms" IsComposable="true" ReturnType="text" BuiltIn="false" Aggregate="false" NiladicFunction="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="public" StoreFunctionName="interlocksalarms">
+          <Parameter Name="tn" Type="varchar" Mode="In" />
+          <Parameter Name="val" Type="double precision" Mode="In" />
+        </Function>
+        <Function Name="vdp_data_insert_trigger" IsComposable="true" BuiltIn="false" Aggregate="false" NiladicFunction="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="public" StoreFunctionName="vdp_data_insert_trigger" />
       </Schema>
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="FttmModel" Alias="Self" d4p1:ViewGeneration="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:devart="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" annotation:UseStrongSpatialTypes="false" xmlns:d4p1="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="FttmEntities" annotation:LazyLoadingEnabled="true" ed:Guid="9988d038-be11-4c37-b6e8-c01fda632240">
+        <EntityContainer Name="FttmEntities" annotation:LazyLoadingEnabled="true" ed:Guid="dc84fe52-9591-4ced-b725-2812bfce3345">
           <EntitySet Name="Vdp03s" EntityType="FttmModel.Vdp03" />
         </EntityContainer>
-        <EntityType Name="Vdp03" ed:Guid="2e960c5c-344a-4373-aa9e-c76ca1caf3c6">
+        <EntityType Name="Vdp03" ed:Guid="e967cc5a-7d30-4528-9daa-ec20fcc38f7c">
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Dateandtime" Type="DateTime" ed:ValidateRequired="false" ed:Guid="c26cf211-833f-4436-ba72-afad3d4c7994" />
-          <Property Name="Mks" Type="Int32" ed:ValidateRequired="false" ed:Guid="8fde9507-17b0-4ff2-b027-7dd829bd51d6" />
-          <Property Name="Tagname" Type="String" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="1f8e22e0-cd4d-40f1-accf-2ee747279c8e" />
-          <Property Name="Val" Type="Double" ed:ValidateRequired="false" ed:Guid="0c16a135-1f5c-44fa-9998-2b41adcc206c" />
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" ed:ValidateRequired="true" ed:Guid="9f19fc15-a81f-4074-a7a6-9d89c24947c1" />
+          <Property Name="Dateandtime" Type="DateTime" ed:ValidateRequired="false" ed:Guid="a68eed31-db0f-4b47-b35d-f9170e5a6a49" />
+          <Property Name="Mks" Type="Int32" ed:ValidateRequired="false" ed:Guid="84fdcd9c-d4e6-401e-9cef-068b75524191" />
+          <Property Name="Tagname" Type="String" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="958730ee-4a14-45ea-9c3e-f9a36a190679" />
+          <Property Name="Val" Type="Double" ed:ValidateRequired="false" ed:Guid="710ee749-2ada-40a8-84de-179072227902" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" ed:ValidateRequired="true" ed:Guid="3a048ff0-1b87-45b7-9090-62934e0d7070" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>

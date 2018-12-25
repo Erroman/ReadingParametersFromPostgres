@@ -35,7 +35,7 @@
                       <Height>18 px</Height>
                     </Size>
                     <Oid xsi:type="SchemaModelOID">
-                      <Path>c26cf211-833f-4436-ba72-afad3d4c7994</Path>
+                      <Path>a68eed31-db0f-4b47-b35d-f9170e5a6a49</Path>
                       <TypeName>EntityDeveloper.EntityFramework.EntityProperty</TypeName>
                     </Oid>
                   </Model>
@@ -54,7 +54,7 @@
                       <Height>18 px</Height>
                     </Size>
                     <Oid xsi:type="SchemaModelOID">
-                      <Path>8fde9507-17b0-4ff2-b027-7dd829bd51d6</Path>
+                      <Path>84fdcd9c-d4e6-401e-9cef-068b75524191</Path>
                       <TypeName>EntityDeveloper.EntityFramework.EntityProperty</TypeName>
                     </Oid>
                   </Model>
@@ -73,7 +73,7 @@
                       <Height>18 px</Height>
                     </Size>
                     <Oid xsi:type="SchemaModelOID">
-                      <Path>1f8e22e0-cd4d-40f1-accf-2ee747279c8e</Path>
+                      <Path>958730ee-4a14-45ea-9c3e-f9a36a190679</Path>
                       <TypeName>EntityDeveloper.EntityFramework.EntityProperty</TypeName>
                     </Oid>
                   </Model>
@@ -92,7 +92,7 @@
                       <Height>18 px</Height>
                     </Size>
                     <Oid xsi:type="SchemaModelOID">
-                      <Path>0c16a135-1f5c-44fa-9998-2b41adcc206c</Path>
+                      <Path>710ee749-2ada-40a8-84de-179072227902</Path>
                       <TypeName>EntityDeveloper.EntityFramework.EntityProperty</TypeName>
                     </Oid>
                   </Model>
@@ -111,7 +111,7 @@
                       <Height>18 px</Height>
                     </Size>
                     <Oid xsi:type="SchemaModelOID">
-                      <Path>9f19fc15-a81f-4074-a7a6-9d89c24947c1</Path>
+                      <Path>3a048ff0-1b87-45b7-9090-62934e0d7070</Path>
                       <TypeName>EntityDeveloper.EntityFramework.EntityProperty</TypeName>
                     </Oid>
                   </Model>
@@ -146,6 +146,10 @@
                 <Hidden>false</Hidden>
               </Model>
             </Children>
+            <Location>
+              <X>256 px</X>
+              <Y>-128 px</Y>
+            </Location>
             <Size>
               <Width>150 px</Width>
               <Height>158 px</Height>
@@ -160,7 +164,7 @@
             </MaxSize>
             <Ports />
             <Oid xsi:type="SchemaModelOID">
-              <Path>2e960c5c-344a-4373-aa9e-c76ca1caf3c6</Path>
+              <Path>e967cc5a-7d30-4528-9daa-ec20fcc38f7c</Path>
               <TypeName>EntityDeveloper.EntityFramework.EntityClass</TypeName>
             </Oid>
             <FixedHeight>35 px</FixedHeight>
@@ -169,14 +173,14 @@
         <GridSize>8 px</GridSize>
         <ViewPort>
           <ScaleMode>Free</ScaleMode>
-          <Scale>0.8081013</Scale>
+          <Scale>1</Scale>
           <Location>
-            <X>-6.6729292379454 px</X>
-            <Y>-2.6729292379454 px</Y>
+            <X>-125 px</X>
+            <Y>-363 px</Y>
           </Location>
         </ViewPort>
         <Oid xsi:type="SchemaModelOID">
-          <Path>9988d038-be11-4c37-b6e8-c01fda632240</Path>
+          <Path>dc84fe52-9591-4ced-b725-2812bfce3345</Path>
           <TypeName>EntityDeveloper.EntityFramework.EntityContextModel</TypeName>
         </Oid>
       </Model>
@@ -185,16 +189,16 @@
   <DiagramOptions Version="v2.0">
     <Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="PageOptions">
       <TopLeftMargins>
-        <Width>10 mm</Width>
-        <Height>10 mm</Height>
+        <Width>39.3700787401575 in/100</Width>
+        <Height>39.3700787401575 in/100</Height>
       </TopLeftMargins>
       <BottomRightMargins>
-        <Width>10 mm</Width>
-        <Height>10 mm</Height>
+        <Width>39.3700787401575 in/100</Width>
+        <Height>39.3700787401575 in/100</Height>
       </BottomRightMargins>
       <PaperSize>
-        <Width>210 mm</Width>
-        <Height>297 mm</Height>
+        <Width>827 in/100</Width>
+        <Height>1169 in/100</Height>
       </PaperSize>
     </Options>
     <Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="PrintOptions" />

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="FttmEntitiesStoreContainer" CdmEntityContainer="FttmEntities">
+    <EntitySetMapping Name="Vdp03s">
+      <EntityTypeMapping TypeName="FttmModel.Vdp03">
+        <MappingFragment StoreEntitySet="vdp03s">
+          <ScalarProperty Name="Dateandtime" ColumnName="dateandtime" />
+          <ScalarProperty Name="Mks" ColumnName="mks" />
+          <ScalarProperty Name="Tagname" ColumnName="tagname" />
+          <ScalarProperty Name="Val" ColumnName="val" />
+          <ScalarProperty Name="Id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

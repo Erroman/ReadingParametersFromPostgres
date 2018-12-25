@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FttmModel.Store" Alias="Self" Provider="Devart.Data.PostgreSql" ProviderManifestToken="PostgreSQL, 9.2.2" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:devart="http://devart.com/schemas/edml/StorageSchemaExtensions/1.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="FttmEntitiesStoreContainer">
+    <EntitySet Name="vdp03s" EntityType="FttmModel.Store.vdp03" store:Type="Tables" Schema="public" Table="vdp03" />
+  </EntityContainer>
+  <EntityType Name="vdp03">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="dateandtime" Type="timestamp" />
+    <Property Name="mks" Type="int" />
+    <Property Name="tagname" Type="varchar" MaxLength="50" />
+    <Property Name="val" Type="double precision" />
+    <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <Function Name="interlocksalarms" IsComposable="true" ReturnType="text" BuiltIn="false" Aggregate="false" NiladicFunction="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="public" StoreFunctionName="interlocksalarms">
+    <Parameter Name="tn" Type="varchar" Mode="In" />
+    <Parameter Name="val" Type="double precision" Mode="In" />
+  </Function>
+  <Function Name="vdp_data_insert_trigger" IsComposable="true" BuiltIn="false" Aggregate="false" NiladicFunction="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="public" StoreFunctionName="vdp_data_insert_trigger" />
+</Schema>

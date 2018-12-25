@@ -1,0 +1,991 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="fttmModel.Store" Provider="Devart.Data.PostgreSql" ProviderManifestToken="PostgreSQL, 9.2.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp01' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp01">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp02' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp02">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp03' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp03">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp04' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp04">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp05' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp05">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp06' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp06">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp07' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp07">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp08' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp08">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp09' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp09">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp10' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp10">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp15' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp15">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp16' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp16">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp17' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp17">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp18' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp18">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp19' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp19">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp20' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp20">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp29' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp29">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp30' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp30">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp31' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp31">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp32' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp32">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp33' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp33">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'fttm.public.vdp44' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="vdp44">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="timestamp" Precision="6" />
+          <Property Name="mks" Type="int" />
+          <Property Name="tagname" Type="varchar" MaxLength="50" />
+          <Property Name="val" Type="double precision" />
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="fttmModelStoreContainer">
+          <EntitySet Name="vdp01" EntityType="Self.vdp01" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp01.dateandtime,
+vdp01.mks,
+vdp01.tagname,
+vdp01.val,
+vdp01.id
+FROM public.vdp01 AS vdp01</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp02" EntityType="Self.vdp02" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp02.dateandtime,
+vdp02.mks,
+vdp02.tagname,
+vdp02.val,
+vdp02.id
+FROM public.vdp02 AS vdp02</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp03" EntityType="Self.vdp03" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp03.dateandtime,
+vdp03.mks,
+vdp03.tagname,
+vdp03.val,
+vdp03.id
+FROM public.vdp03 AS vdp03</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp04" EntityType="Self.vdp04" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp04.dateandtime,
+vdp04.mks,
+vdp04.tagname,
+vdp04.val,
+vdp04.id
+FROM public.vdp04 AS vdp04</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp05" EntityType="Self.vdp05" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp05.dateandtime,
+vdp05.mks,
+vdp05.tagname,
+vdp05.val,
+vdp05.id
+FROM public.vdp05 AS vdp05</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp06" EntityType="Self.vdp06" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp06.dateandtime,
+vdp06.mks,
+vdp06.tagname,
+vdp06.val,
+vdp06.id
+FROM public.vdp06 AS vdp06</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp07" EntityType="Self.vdp07" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp07.dateandtime,
+vdp07.mks,
+vdp07.tagname,
+vdp07.val,
+vdp07.id
+FROM public.vdp07 AS vdp07</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp08" EntityType="Self.vdp08" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp08.dateandtime,
+vdp08.mks,
+vdp08.tagname,
+vdp08.val,
+vdp08.id
+FROM public.vdp08 AS vdp08</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp09" EntityType="Self.vdp09" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp09.dateandtime,
+vdp09.mks,
+vdp09.tagname,
+vdp09.val,
+vdp09.id
+FROM public.vdp09 AS vdp09</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp10" EntityType="Self.vdp10" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp10.dateandtime,
+vdp10.mks,
+vdp10.tagname,
+vdp10.val,
+vdp10.id
+FROM public.vdp10 AS vdp10</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp15" EntityType="Self.vdp15" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp15.dateandtime,
+vdp15.mks,
+vdp15.tagname,
+vdp15.val,
+vdp15.id
+FROM public.vdp15 AS vdp15</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp16" EntityType="Self.vdp16" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp16.dateandtime,
+vdp16.mks,
+vdp16.tagname,
+vdp16.val,
+vdp16.id
+FROM public.vdp16 AS vdp16</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp17" EntityType="Self.vdp17" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp17.dateandtime,
+vdp17.mks,
+vdp17.tagname,
+vdp17.val,
+vdp17.id
+FROM public.vdp17 AS vdp17</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp18" EntityType="Self.vdp18" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp18.dateandtime,
+vdp18.mks,
+vdp18.tagname,
+vdp18.val,
+vdp18.id
+FROM public.vdp18 AS vdp18</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp19" EntityType="Self.vdp19" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp19.dateandtime,
+vdp19.mks,
+vdp19.tagname,
+vdp19.val,
+vdp19.id
+FROM public.vdp19 AS vdp19</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp20" EntityType="Self.vdp20" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp20.dateandtime,
+vdp20.mks,
+vdp20.tagname,
+vdp20.val,
+vdp20.id
+FROM public.vdp20 AS vdp20</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp29" EntityType="Self.vdp29" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp29.dateandtime,
+vdp29.mks,
+vdp29.tagname,
+vdp29.val,
+vdp29.id
+FROM public.vdp29 AS vdp29</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp30" EntityType="Self.vdp30" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp30.dateandtime,
+vdp30.mks,
+vdp30.tagname,
+vdp30.val,
+vdp30.id
+FROM public.vdp30 AS vdp30</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp31" EntityType="Self.vdp31" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp31.dateandtime,
+vdp31.mks,
+vdp31.tagname,
+vdp31.val,
+vdp31.id
+FROM public.vdp31 AS vdp31</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp32" EntityType="Self.vdp32" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp32.dateandtime,
+vdp32.mks,
+vdp32.tagname,
+vdp32.val,
+vdp32.id
+FROM public.vdp32 AS vdp32</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp33" EntityType="Self.vdp33" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp33.dateandtime,
+vdp33.mks,
+vdp33.tagname,
+vdp33.val,
+vdp33.id
+FROM public.vdp33 AS vdp33</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="vdp44" EntityType="Self.vdp44" store:Type="Tables" store:Schema="public">
+            <DefiningQuery>SELECT 
+vdp44.dateandtime,
+vdp44.mks,
+vdp44.tagname,
+vdp44.val,
+vdp44.id
+FROM public.vdp44 AS vdp44</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="fttmModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="vdp03">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp04">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityContainer Name="fttmEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="vdp03" EntityType="Self.vdp03" />
+          <EntitySet Name="vdp04" EntityType="Self.vdp04" />
+          <EntitySet Name="vdp01" EntityType="fttmModel.vdp01" />
+          <EntitySet Name="vdp02" EntityType="fttmModel.vdp02" />
+          <EntitySet Name="vdp05" EntityType="fttmModel.vdp05" />
+          <EntitySet Name="vdp06" EntityType="fttmModel.vdp06" />
+          <EntitySet Name="vdp07" EntityType="fttmModel.vdp07" />
+          <EntitySet Name="vdp08" EntityType="fttmModel.vdp08" />
+          <EntitySet Name="vdp09" EntityType="fttmModel.vdp09" />
+          <EntitySet Name="vdp10" EntityType="fttmModel.vdp10" />
+          <EntitySet Name="vdp15" EntityType="fttmModel.vdp15" />
+          <EntitySet Name="vdp16" EntityType="fttmModel.vdp16" />
+          <EntitySet Name="vdp17" EntityType="fttmModel.vdp17" />
+          <EntitySet Name="vdp18" EntityType="fttmModel.vdp18" />
+          <EntitySet Name="vdp19" EntityType="fttmModel.vdp19" />
+          <EntitySet Name="vdp20" EntityType="fttmModel.vdp20" />
+          <EntitySet Name="vdp29" EntityType="fttmModel.vdp29" />
+          <EntitySet Name="vdp30" EntityType="fttmModel.vdp30" />
+          <EntitySet Name="vdp31" EntityType="fttmModel.vdp31" />
+          <EntitySet Name="vdp32" EntityType="fttmModel.vdp32" />
+          <EntitySet Name="vdp33" EntityType="fttmModel.vdp33" />
+          <EntitySet Name="vdp44" EntityType="fttmModel.vdp44" />
+        </EntityContainer>
+        <EntityType Name="vdp01">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp02">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp05">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp06">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp07">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp08">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp09">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp10">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp15">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp16">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp17">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp18">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp19">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp20">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp29">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp30">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp31">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp32">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp33">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+        <EntityType Name="vdp44">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="dateandtime" Type="DateTime" Precision="6" />
+          <Property Name="mks" Type="Int32" />
+          <Property Name="tagname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="val" Type="Double" />
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="fttmModelStoreContainer" CdmEntityContainer="fttmEntities">
+          <EntitySetMapping Name="vdp03">
+            <EntityTypeMapping TypeName="fttmModel.vdp03">
+              <MappingFragment StoreEntitySet="vdp03">
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp04">
+            <EntityTypeMapping TypeName="fttmModel.vdp04">
+              <MappingFragment StoreEntitySet="vdp04">
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp01">
+            <EntityTypeMapping TypeName="fttmModel.vdp01">
+              <MappingFragment StoreEntitySet="vdp01">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp02">
+            <EntityTypeMapping TypeName="fttmModel.vdp02">
+              <MappingFragment StoreEntitySet="vdp02">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp05">
+            <EntityTypeMapping TypeName="fttmModel.vdp05">
+              <MappingFragment StoreEntitySet="vdp05">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp06">
+            <EntityTypeMapping TypeName="fttmModel.vdp06">
+              <MappingFragment StoreEntitySet="vdp06">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp07">
+            <EntityTypeMapping TypeName="fttmModel.vdp07">
+              <MappingFragment StoreEntitySet="vdp07">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp08">
+            <EntityTypeMapping TypeName="fttmModel.vdp08">
+              <MappingFragment StoreEntitySet="vdp08">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp09">
+            <EntityTypeMapping TypeName="fttmModel.vdp09">
+              <MappingFragment StoreEntitySet="vdp09">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp10">
+            <EntityTypeMapping TypeName="fttmModel.vdp10">
+              <MappingFragment StoreEntitySet="vdp10">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp15">
+            <EntityTypeMapping TypeName="fttmModel.vdp15">
+              <MappingFragment StoreEntitySet="vdp15">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp16">
+            <EntityTypeMapping TypeName="fttmModel.vdp16">
+              <MappingFragment StoreEntitySet="vdp16">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp17">
+            <EntityTypeMapping TypeName="fttmModel.vdp17">
+              <MappingFragment StoreEntitySet="vdp17">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp18">
+            <EntityTypeMapping TypeName="fttmModel.vdp18">
+              <MappingFragment StoreEntitySet="vdp18">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp19">
+            <EntityTypeMapping TypeName="fttmModel.vdp19">
+              <MappingFragment StoreEntitySet="vdp19">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp20">
+            <EntityTypeMapping TypeName="fttmModel.vdp20">
+              <MappingFragment StoreEntitySet="vdp20">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp29">
+            <EntityTypeMapping TypeName="fttmModel.vdp29">
+              <MappingFragment StoreEntitySet="vdp29">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp30">
+            <EntityTypeMapping TypeName="fttmModel.vdp30">
+              <MappingFragment StoreEntitySet="vdp30">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp31">
+            <EntityTypeMapping TypeName="fttmModel.vdp31">
+              <MappingFragment StoreEntitySet="vdp31">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp32">
+            <EntityTypeMapping TypeName="fttmModel.vdp32">
+              <MappingFragment StoreEntitySet="vdp32">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp33">
+            <EntityTypeMapping TypeName="fttmModel.vdp33">
+              <MappingFragment StoreEntitySet="vdp33">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="vdp44">
+            <EntityTypeMapping TypeName="fttmModel.vdp44">
+              <MappingFragment StoreEntitySet="vdp44">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="val" ColumnName="val" />
+                <ScalarProperty Name="tagname" ColumnName="tagname" />
+                <ScalarProperty Name="mks" ColumnName="mks" />
+                <ScalarProperty Name="dateandtime" ColumnName="dateandtime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

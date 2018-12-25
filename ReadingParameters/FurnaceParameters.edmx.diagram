@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3bbcd24453db45b5a264d6c50db9f617" Name="Diagram1">
+        <EntityTypeShape EntityType="fttmModel.vdp03" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="fttmModel.vdp04" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="fttmModel.vdp01" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp02" Width="1.5" PointX="2.75" PointY="3.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp05" Width="1.5" PointX="4.75" PointY="3.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp06" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp07" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp08" Width="1.5" PointX="2.75" PointY="6.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp09" Width="1.5" PointX="6.75" PointY="3.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp10" Width="1.5" PointX="4.75" PointY="6.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp15" Width="1.5" PointX="6.75" PointY="6.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp16" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp17" Width="1.5" PointX="8.75" PointY="3.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp18" Width="1.5" PointX="8.75" PointY="6.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp19" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp20" Width="1.5" PointX="0.75" PointY="9.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp29" Width="1.5" PointX="2.75" PointY="9.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp30" Width="1.5" PointX="4.75" PointY="9.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp31" Width="1.5" PointX="6.75" PointY="9.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp32" Width="1.5" PointX="8.75" PointY="9.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp33" Width="1.5" PointX="10.75" PointY="3.75" />
+        <EntityTypeShape EntityType="fttmModel.vdp44" Width="1.5" PointX="10.75" PointY="6.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

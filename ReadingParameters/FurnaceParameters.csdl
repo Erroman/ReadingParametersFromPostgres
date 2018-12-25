@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FttmModel" Alias="Self" d1p1:ViewGeneration="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:devart="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns:ed="http://devart.com/schemas/EntityDeveloper/1.0" annotation:UseStrongSpatialTypes="false" xmlns:d1p1="http://devart.com/schemas/edml/ConceptualSchemaExtensions/1.0" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="FttmEntities" annotation:LazyLoadingEnabled="true" ed:Guid="dc84fe52-9591-4ced-b725-2812bfce3345">
+    <EntitySet Name="Vdp03s" EntityType="FttmModel.Vdp03" />
+  </EntityContainer>
+  <EntityType Name="Vdp03" ed:Guid="e967cc5a-7d30-4528-9daa-ec20fcc38f7c">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Dateandtime" Type="DateTime" ed:ValidateRequired="false" ed:Guid="a68eed31-db0f-4b47-b35d-f9170e5a6a49" />
+    <Property Name="Mks" Type="Int32" ed:ValidateRequired="false" ed:Guid="84fdcd9c-d4e6-401e-9cef-068b75524191" />
+    <Property Name="Tagname" Type="String" MaxLength="50" Unicode="true" ed:ValidateMaxLength="50" ed:ValidateRequired="false" ed:Guid="958730ee-4a14-45ea-9c3e-f9a36a190679" />
+    <Property Name="Val" Type="Double" ed:ValidateRequired="false" ed:Guid="710ee749-2ada-40a8-84de-179072227902" />
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" ed:ValidateRequired="true" ed:Guid="3a048ff0-1b87-45b7-9090-62934e0d7070" />
+  </EntityType>
+</Schema>
